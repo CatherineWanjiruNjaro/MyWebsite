@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact-Fitness Gym</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<header>
+	<h1>Fitness Gym</h1>
+	<h2>Helping Carrick-on-Shannon Stay Fit and Healthy</h2>
+</header>
+<nav>
+	<a href="index.html">Home</a>
+	<a href="about.html">About</a>
+	<a href="services.html">Services</a>
+	<a href="contact.html">Contact</a>
+</nav>
+<main>
+	<h2>Contact Us</h2>	
+
+	<p>Please complete the form below to contact Fitness gym.</p>
+	
+	<form>
+		<label>Name:</label><br>
+		<input type="text"name="name"><br>
+
+		<label>Email:</label><br>
+		<input type="email"name="name"><br>
+
+		<label>Phone:</label><br>
+		<input type="tel"name="name"><br>
+
+		<label>Reason for Contact:</label><br>
+		<select name="reason">
+			<option>Membership</option>
+			<option>Classes</option>
+			<option>Personal Training</option>
+		</select><br>
+
+		<label>Message:</label><br>
+		<textarea name="message" rows="4"></textarea><br>
+		<input type="submit" value="Submit">
+			
+	</form>
+	<h2>Business Details</h2>
+	<p>Fitness Gym<br>
+		Main STreet<br>
+		Carrick-on-Shannon<br>
+		Co.Leitrim
+		Phone:0711234567<br>
+		Email:info@fitnessgym.ie
+	</p>
+
+	<h2>Fitnesss Video</h2>
+	
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/J-pI73Dw0e4?si=RnBwgGCC6iFQeJIn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+	
+</body>
+</html>
